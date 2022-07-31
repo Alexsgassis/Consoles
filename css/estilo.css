@@ -1,0 +1,199 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 20px;
+    /* border: solid 1px red; */
+}
+
+body{
+	background-color:#18171a;
+	color: #ffffff;
+	text-align: center;
+    font-family: "teko", sans-serif;
+    padding-bottom: bottom;
+    margin: 80px auto 0px auto;
+    padding: 10px;
+
+    /* .corpo{
+    margin-top: 50px;
+    display: block;
+    width: 500px;
+    float: left;
+    padding-left: 30px;
+    text-align: center;
+} */
+}
+
+h2{
+    font-size: 25px;
+}
+
+#interface {
+    width: 1100px;
+    
+}
+
+/* Menu principal */
+
+nav {
+	z-index: 3;
+	position: fixed;
+ 	right: 0;
+  	left: 0;
+  	padding: 0;
+ 	top: 0%;
+    box-shadow: 0px 0px 10px black;
+}
+
+.menu ul {
+	list-style:  none;
+	text-transform: uppercase;
+	padding: 20px;
+	background-color: #ffffff;
+    margin: 0px;	
+    text-align: center ;  
+}
+
+.menu li {
+    display: inline;
+    padding: 8px;
+    margin: 40px;	
+}
+
+/* .ul li a {
+	padding: 0px 0px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace ; 
+    
+} */
+
+.menu h1 {
+    display: none;
+}
+
+.menu li:hover {
+	/* background-color:rgba(0, 0, 0, 0.3); */
+    box-shadow: 0px 0px 30px 10px rgba(168, 5, 5, 0.77);
+	transition: 0.5s;
+	border-radius:12%;	
+    /* border:20px; */
+}
+
+.menu a {
+    color:#000000;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color:rgb(0, 0, 0);
+    /* margin: 0 auto; */  
+}
+
+/*======================================================*/
+
+#galeria {
+    margin: 0 auto;
+}
+
+.primeiraimagem {
+    width: 100%;
+    height:auto;
+    box-shadow: 0px 0px 30px 10px rgba(50, 50, 50, 0.77);
+    margin-bottom: 100px ; 
+    box-shadow: 0px 0px 50px rgb(255, 7, 7)  ;
+    border-bottom: 10px;
+}
+
+/*======================================================*/
+
+.conteudomain { 
+    box-shadow: 0px 0px 30px 10px rgba(50, 50, 50, 0.77);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;  
+    margin-bottom: 70px;
+    padding: -10px;
+
+}
+.conteudomain:hover {
+    box-shadow: 0px 0px 30px 10px rgba(255, 255, 255, 0.77);
+    transition:1s;
+}
+
+.subtittle {
+    display: flex;
+    flex-direction: column;
+    font-size:60px;
+    padding: 0;
+    gap: 10px;
+}
+
+.textmain {  
+    color: rgb(5, 141, 141);
+}
+
+.text {
+    display:flex;
+    text-align: center;
+    padding:40px;
+    align-items: center;
+    flex-direction: row;
+    color: rgb(255, 255, 255);
+}
+
+/* ===================================== */
+
+.imggames  {
+    display:fixed;
+    height: 400px;
+    width: 390px;
+    margin: 0 auto;
+    /* box-shadow: 50px 0px 30px 0px rgba(0, 0, 0, 0.77) ; */
+    box-shadow: 25px 0 30px -8px black;
+    
+}
+
+/* .imggames:hover {
+    box-shadow: 0px 0px 30px 10px rgba(255, 255, 255, 0.77);
+} */
+
+
+
+#jogos { 
+    border-top: solid 1px;
+    padding-top: 10px;
+    width: auto;
+    /* background-color: rgb(34, 32, 32); */
+}
+
+
+/*======================================================*/
+
+.botao {  
+    margin-top: 30px;
+    background-color: rgb(5, 141, 141);
+    width: 160px;
+    height: 50px;
+    border: none;
+    box-shadow: -30px 0 5px rgba(0, 0, 0, 0.01);
+    border-radius: 20px ;
+    color:rgb(255, 255, 255);
+}
+
+.botao a {  
+    color:rgb(255, 255, 255);
+    /* font-family: 'Sarala', sans-serif; */
+    /* font-weight:400; */
+    /* font-size: 17px; */
+}
+
+.botao:hover {
+    box-shadow: 0px 0px 20px 2px rgba(204, 204, 204, 0.77);
+    transition: 1s;
+}
+
+
+
